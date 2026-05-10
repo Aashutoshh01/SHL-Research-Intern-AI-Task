@@ -1,0 +1,50 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (large files)
+# We ARE committing vectorstore index because it is small (1MB) and needed for deployment
+# app/data/vectorstore/*.index
+# app/data/vectorstore/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing & Assessment Artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+benchmark*.txt
+benchmark*.json
+scripts/run_benchmarks.py
+scripts/evaluator/
+scripts/test_*.py
+scripts/eval_*.py
+scripts/evaluate.py
+scripts/quick_test.py
+scripts/test_live.py
+*.md
+!README.md
+eval_report.json
+test-log.txt
+
+# Ignore all .txt files but keep requirements.txt
+*.txt
+!requirements.txt
