@@ -93,6 +93,22 @@ Overall Grade:            A
 
 ---
 
+## 📈 Optimization & Benchmarking
+
+The system's retrieval parameters and model selection were finalized through extensive quantitative sweep analysis.
+
+### 1. Embedding Model Selection
+We benchmarked multiple sentence-transformer models. `all-MiniLM-L6-v2` was selected for its optimal balance of high recall and 80% lower memory footprint compared to larger models.
+
+![Embedding Comparison](image/embedding_comparison.png)
+
+### 2. Confidence Threshold Sweep
+A threshold sweep was performed to determine the optimal confidence cut-off. `0.55` was selected to maximize precision while maintaining a Recall@10 of 0.85.
+
+![Threshold Sweep](image/threshold_sweep.png)
+
+---
+
 ## 🔌 API Endpoints
 
 - **`GET /health`**
