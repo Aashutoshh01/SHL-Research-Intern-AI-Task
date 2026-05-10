@@ -48,7 +48,7 @@ def generate_recommendation_response(
 
     llm = ChatOpenAI(
         model=settings.llm_model,
-        temperature=0.2,
+        temperature=0.0,
         api_key=settings.openai_api_key,
     )
 
@@ -94,7 +94,7 @@ def generate_clarification_response(
 
     llm = ChatOpenAI(
         model=settings.llm_model,
-        temperature=0.2,
+        temperature=0.0,
         api_key=settings.openai_api_key,
     )
 
@@ -137,7 +137,7 @@ def generate_refinement_response(
 
     llm = ChatOpenAI(
         model=settings.llm_model,
-        temperature=0.2,
+        temperature=0.0,
         api_key=settings.openai_api_key,
     )
 
