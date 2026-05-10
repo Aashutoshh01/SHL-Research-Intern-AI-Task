@@ -12,6 +12,8 @@ pinned: false
 
 TalentRoute AI is a high-performance conversational assistant designed to help talent acquisition teams, recruiters, and managers match job profiles with the optimal behavioral, skill, and cognitive assessments from the SHL Catalog.
 
+![TalentRoute AI Architecture](image/architecture_flow.png)
+
 The application leverages a deterministic LangGraph pipeline and a lightweight semantic vector store to provide accurate, context-aware catalog recommendations while maintaining absolute reliability and safety constraints.
 
 ---
