@@ -109,8 +109,14 @@ A threshold sweep was performed to determine the optimal confidence cut-off. `0.
 
 ---
 
-## 🔌 API Endpoints
+## 🔌 API Endpoints (Live Deployment)
 
+The service is deployed on Hugging Face Spaces:
+- **Interactive API Docs**: [https://moonscarsnow-talentroute-ai.hf.space/docs](https://moonscarsnow-talentroute-ai.hf.space/docs)
+- **Chat Endpoint**: [`POST` https://moonscarsnow-talentroute-ai.hf.space/chat](https://moonscarsnow-talentroute-ai.hf.space/chat)
+- **Health Check**: [`GET` https://moonscarsnow-talentroute-ai.hf.space/health](https://moonscarsnow-talentroute-ai.hf.space/health)
+
+### Local Endpoints
 - **`GET /health`**
   Returns the health status of the application.
   - *Response:* `{"status": "ok"}`
